@@ -1,8 +1,4 @@
-/*
-Escribe un programa de tres líneas 
-que pida un número, pida otro número 
-y escriba el resultado de sumar estos dos números.
-*/
+/*Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor:*/
 
 const prompt = require("prompt");
 
@@ -24,9 +20,13 @@ prompt.get(
     },
   ],
   function (err, result) {
-    let resultado = result.numero1 + result.numero2;
-    console.log(
-      "Resultado de la suma de los 2 numeros solicitados es: " + resultado
-    );
+    if (result.numero1 > result.numero2) 
+    {
+        console.log("El numero mayor es: ", result.numero1);
+    }
+    else
+    {
+        console.log("El numero mayor es: ", result.numero2);
+    }
   }
 );
