@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/andresgc04/Diplomado_JavaScript2022T2#readme",
   "dependencies": {
+    "express": "^4.17.3",
+    "expressjs": "^1.0.1",
     "prompt": "^1.3.0"
   }
 }
