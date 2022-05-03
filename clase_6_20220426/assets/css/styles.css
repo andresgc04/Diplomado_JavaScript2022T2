@@ -10,6 +10,8 @@ p{
 #titulo{
     color:#355070;
     font-family: 'Roboto';
+    text-align: center;
+    margin: 0px 0px 25px;
 }
 
 /*Selector de clase*/
