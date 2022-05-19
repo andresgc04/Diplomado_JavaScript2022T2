@@ -1,0 +1,42 @@
+/*EJEMPLOS CON FLEXBOX*/
+section{
+    flex-grow: 1;
+}
+
+.contenedor{
+    width: 80vw;
+    height: 10vh;
+    resize: both;
+    overflow: scroll;
+    background-color: #C8BFD9;
+}
+
+.item{
+    background-color: #26547C;
+    color: #fff;
+}
+
+.caja{
+    width: 200px;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.centrar{
+    justify-content: center;
+}
+
+.derecha{
+    justify-content: right;
+}
+
+.space-around{
+    justify-content: space-around;
+}
